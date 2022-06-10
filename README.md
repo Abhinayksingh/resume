@@ -1,1 +1,1 @@
-Resime
+Resume.
