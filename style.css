@@ -1,10 +1,28 @@
+body{
+    margin:20px;
+    background-color:lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    padding:10px;
+    font-family: 'Asul', sans-serif;
+    
+}
+.container{
+    background:white;
+    padding:10px;
+}
+img{
+    height:150px;
+    margin:3px;
+    border-radius:50%;
+}
+
 h3 {
     background-color:blueviolet;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    padding:5px;
+    border-radius:5px;
 }
-p,li{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
 table, th,td {
     border:1px solid black;
     text-align:center;
@@ -15,20 +33,30 @@ table{
     table-layout:fixed;
     width:100%;
 }
-td{
-    color:blue;
-}
 th{
-    background-color:#32e23f;
+    background-color:blueviolet;
+    color:white;
 }
 #company{
-    background-color:coral;
+    font-weight:bold;
     width:400px;
+    padding:5px;
+    border-radius: 5px;
+    
 }
 .personal-info{
-    padding:2px;
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-between;
+}
+.personal-info>div{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+
+
 }
 .divider{
-    border-bottom:2px solid sandybrown;
+    border-bottom:2px solid blueviolet;
     padding:1rem;
 }
