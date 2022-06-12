@@ -1,0 +1,34 @@
+h3 {
+    background-color:blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p,li{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table, th,td {
+    border:1px solid black;
+    text-align:center;
+    table-layout:auto;
+}
+table{
+    border-collapse:collapse;
+    table-layout:fixed;
+    width:100%;
+}
+td{
+    color:blue;
+}
+th{
+    background-color:#32e23f;
+}
+#company{
+    background-color:coral;
+    width:400px;
+}
+.personal-info{
+    padding:2px;
+}
+.divider{
+    border-bottom:2px solid sandybrown;
+    padding:1rem;
+}
